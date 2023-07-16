@@ -28,7 +28,7 @@ public class hewanBeraksi {
 }
 ```
 
-2. **Object** adalah instance dari class. Pada kode ini, `mhs[i] = new MahasiswaDetail(nama, npm);` adalah contoh pembuatan object.
+2. **Object** adalah instance dari class. Pada kode ini, `mhlk[i] = new hewanDetail(jenis, idhwn);` adalah contoh pembuatan object.
 
 ```bash
 mhlk[i] = new hewanDetail(jenis, idhwn);
@@ -173,7 +173,7 @@ try {
     catch (NumberFormatException e){
             System.out.println("error pada nomor: "+e.getMessage());
         } catch (StringIndexOutOfBoundsException e){
-            System.out.println("error pada format jumlah: "+e.getMessage());
+            System.out.println("error pada format Id hewan: "+e.getMessage());
         }
         catch (Exception e){
             System.out.println("error umum: "+e.getMessage());
